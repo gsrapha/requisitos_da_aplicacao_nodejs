@@ -1,10 +1,14 @@
 {
   "dependencies": {
     "express": "^4.21.2",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.3"
   },
   "name": "requisitos_da_aplicacao_nodejs",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
 }
